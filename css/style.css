@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+.nav {
+  height: 50px;
+  background: blue;
+}
+.nav div {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  padding: 15px;
+  font-size: 20px;
+  color: white;
+}
+.nav ul {
+  position: absolute;
+  right: 5px;
+}
+.nav ul li {
+  display: inline-block;
+}
+.nav ul li a {
+  color: white;
+  padding: 5px;
+}
+
+.home {
+  background: url("../images/homeBack.jpg");
+  background-size: cover;
+  height: 80vh;
+}
+
+.home .text-container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+
+.about .about-content {
+  margin: 150px auto 0 auto;
+  width: 500px;
+}
+.about .about-content h1 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: red;
+}
+.about .about-content p {
+  text-align: justify;
+  font-family: 'Lato', sans-serif;
+  color: green;
+}
